@@ -293,7 +293,7 @@ void ctkErrorLogAbstractModel::addEntry(const QDateTime& currentDateTime, const 
 
   d->AddingEntry = true;
 
-  QString timeFormat("dd.MM.yyyy hh:mm:ss");
+  QString timeFormat("yyyy/MM/dd HH:mm:ss.zzz");
 
   bool groupEntry = false;
   if (d->LogEntryGrouping)
